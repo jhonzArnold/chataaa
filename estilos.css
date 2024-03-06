@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.contenedor {
+    background: pink; /* Cambia el color de fondo a rosa */
+    width: 100vw;
+    height: 100vh;
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: center; /* Alinea horizontalmente los elementos */
+}
+
+.imagen-gato {
+    margin-right: 20px; /* Ajusta el margen derecho para acercar la imagen más cerca del texto */
+}
+
+.imagen-gato img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacio adicional debajo de la imagen */
+}
+
+.texto {
+    text-align: center; /* Centra el texto */
+}
+
+p {
+    font-size: xx-large;
+    padding: 15px; /* Ajusta el espaciado del párrafo */
+}
+
+button {
+    font-size: xx-large;
+    padding: 10px 20px; /* Ajusta el espaciado del botón */
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+}
